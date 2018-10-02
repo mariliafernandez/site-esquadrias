@@ -5,56 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Marília Esquadrias</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css" />
+    <link rel="stylesheet" href="./resources/style.css" />
+    <title>Marilia Esquadrias - Vidro e Alumínio</title>
   </head>
+
   <body>
-    <header id="showcase">
-      <h1>Marilia<br />Esquadrias</h1>
-      <p>
-        Esquadrias em vidro e alumínio
-      </p>
+    <div class="navbar-fixed">
       <nav>
-        <ul>
-          <li><a href="#">Inicial</a></li>
-          <li><a href="#section-a">Sobre a empresa</a></li>
-          <li><a href="#section-b">Contato</a></li>
-        </ul>
+        <div class="nav-wrapper">
+          <ul class="left">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">A Empresa</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
       </nav>
-      <a class="arrow-button" href="#section-a"><img src="img/down-black.png"/></a>
-    </header>
+    </div>
+    
+    <div class="image">
+      <h1>
+        <span>
+            Marília Esquadrias
+        </span>
+        </h1>
+    </div>
 
-    <section id="section-a">
-      <h2>O que fazemos</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <div class="description container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium quod earum perspiciatis ipsam. Aperiam dolorum aliquid vel consequatur dolorem harum, fugiat, odit beatae neque magni inventore sed minus veritatis.</p>
+    </div>
 
-      <p id="slideshow">
-        *Slideshow*
-      </p>
+      <!-- <section id="sobre">
+        <h2>A Empresa</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
 
-      <a class="arrow-button" href="#section-b"><img src="img/down-white.png"/></a>
+        <a class="button" href="#">Ver mais</a>
+      </section>
 
-    </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>
+          Telefone fixo<br />
+          Celular 1<br />
+          Celular 2<br />
+          Nome do responsável<br />
+          nome@email.com
+        </p>
+        <a class="button" href="#">Peça um orçamento</a>
+      </section>
 
-    <section id="section-b">
-      <h2>Contato</h2>
-      <p>
-        (41) 3356-3474<br />
-        (41) 98494-3474 (Oi)<br />
-        (41) 99502-7730 (Tim)<br />
-        German Fernandez<br />
-      </p>
-      <p id="nome">esquadriasmarilia@hotmail.com</p>
-      <a class="arrow-button" href="#showcase">
-        <img src="img/down-black.png"/>
-      </a>
-    </section>
+      <section id="portfolio">
+        <h2>Projetos</h2>
+        Em contrução
+      </section> -->
 
-    <footer>
-      Esquadrias Marília 2018 &copy Copyright
-    </footer>
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 s12">
+                <h5 class="white-text">Informações</h5>
+                  <ul>
+                    <li><i class="material-icons">location_on</i>Curitiba - PR</li>
+                    <li><i class="material-icons">phone</i>(41) 3356-3474</li></li>
+                    <li><i class="material-icons">email</i>esquadriasmarilia@hotmail.com</li></li>
+                    <li><i class="material-icons">person</i>German Fernandez Lizarazu</li></li>
+                  </ul>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">A Empresa</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Projetos</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <div class="row">
+                <div class="col s12">
+                  Esquadrias Marília 2018 &copy Copyright
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </footer>
   </body>
 </html>
